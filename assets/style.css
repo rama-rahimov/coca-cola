@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    margin: 0;
+    
+}
+/* Container */
+.container{
+    background-color: rgb(231, 73, 15);
+}
+
+
+/* Sign */
+.sign{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Links */
+.links{
+    padding-top: 5px;
+}
+
+/* Money */
+.money{
+    display: flex;
+    gap: 40px;
+    padding: 8px 22px;
+    background-color: burlywood;
+}
+
+/* Circle */
+.circle{
+    display: flex;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+  /* Dollar */
+  .dollar{
+    color: darkblue;
+    background-color: #fff;
+    border-color: darkblue;
+}
+.dollar:hover{
+    color: #fff;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.dollar-text{
+    text-align: center;
+}
+
+/* Euro */
+.euro{
+    border-color: chartreuse;
+    color: chartreuse;
+    background-color: #fff;
+}
+.euro:hover{
+    color: #fff;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+/* Funt */
+.funt{
+color: rgb(48, 26, 192);
+border-color:rgb(48, 26, 192) ;
+background-color: #fff;
+}
+.funt:hover{
+    color: #fff;
+    background-color:rgb(48, 26, 192)  ;
+    cursor: pointer;
+}
+
+/* Tl */
+.tl{
+    color: chartreuse;
+    border-color: chartreuse ;
+    background-color: #fff;
+}
+.tl:hover{
+    color: #fff;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+
+
+/* Header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+.header-logo{
+    display: flex;
+}
+.header-photo{
+   width:50% ;
+}
+
+.fa-arrow-up{
+    color:green;
+    margin-left: 5px;
+}
+
+/* Nav */
+
+.nav{
+    display: flex;
+    gap: 60px;
+}
+.nav-link{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: rgb(0, 238, 0);
+    transform: translateY(3px);
+    transition: .8s ease;
+}
+
+
+.fa-house{
+    margin-left: 10px;
+    color: black;
+    font-size: 18px;
+}
+.fa-info{
+    margin-left: 10px;
+    color: black;
+    font-size: 18px;
+}
+.home{
+    
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    
+}
+
+/* Intro */
+
+.intro{
+    margin-top: 70px;
+}
+
+.intro_inner{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.title-cola{
+    text-align: center;
+    font-size: 50px;
+
+}
+.paragraf{
+    font-size: 19px;
+    padding: 15px;
+}
+
+.elaqe{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Information */
+
+.information{
+    display: flex;
+    background-color: brown;
+}
+
+.melumat{
+    text-decoration: none;
+    font-weight: 500;
+    color:black;
+}
+.melumat:hover{
+    color: navajowhite;
+}
+.qutu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+/* Teqvim */
+
+.teqvim{
+    display: flex;
+    align-items: center;
+}
+
+/* Table */
+.table{
+ margin:  5px 10px;
+ width: 30%;
+ 
+}
+th , td{
+    text-align: center;
+    padding: 10px;
+}
+
+table ,td , tr, th{
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+/* Ul  */
+ul{
+    padding: 0;
+    margin-left: 22px;
+    font-size: 20px;
+}
+
+/* Ol */
+ol{
+    font-size: 20px;
+}
+
+
+/* Video */
+.video_inner{
+    display: flex;
+    gap: 10px;
+}
+
+/* Show */
+.show{
+    width: 500px;
+    height:300px ;
+}
+
+.iframe_show{
+    margin: 20px 0;
+}
+
+
+/* News */
+.text-news{
+    display: flex;
+    width: 160px;
+    padding: 11px 30px 13px;
+    color: #fff;
+    background-color: #1d1d1d;
+}
+
+.news{
+    display: flex;
+    align-items: center;
+}
+
